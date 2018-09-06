@@ -1,8 +1,9 @@
 const gulp = require('gulp');
+const uglify = require('gulp-uglify');
 
 // gulp.dest
-gulp.src('./client/templates/*.jade')
-    .pipe(jade())
-    .pipe(gulp.dest('./build/templates'))
-    .pipe(minify())
-    .pipe(gulp.dest('./build/minified_templates'));
+// 文件流可以导出多次
+gulp.src('./js/1/*.js')
+    .pipe(gulp.dest('./dist/dev'))
+    .pipe(uglify())
+    .pipe(gulp.dest('./dist/pub'));
