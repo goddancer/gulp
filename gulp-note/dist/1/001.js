@@ -1,2 +1,0 @@
-export const time = new Date().getTime()
-//# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJuYW1lcyI6W10sIm1hcHBpbmdzIjoiIiwic291cmNlcyI6WyIxLzAwMS5qcyJdLCJzb3VyY2VzQ29udGVudCI6WyJleHBvcnQgY29uc3QgdGltZSA9IG5ldyBEYXRlKCkuZ2V0VGltZSgpIl0sImZpbGUiOiIxLzAwMS5qcyJ9

@@ -1,2 +1,0 @@
-console.log('this is hello.js')
-//# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJuYW1lcyI6W10sIm1hcHBpbmdzIjoiIiwic291cmNlcyI6WyIxL2hlbGxvLmpzIl0sInNvdXJjZXNDb250ZW50IjpbImNvbnNvbGUubG9nKCd0aGlzIGlzIGhlbGxvLmpzJykiXSwiZmlsZSI6IjEvaGVsbG8uanMifQ==

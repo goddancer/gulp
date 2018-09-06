@@ -6,7 +6,9 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "clear": "rm -rf ./dist/*",
-    "gulp:src": "npm run clear && node gulp.src.js"
+    "gulp:vfs": "npm run clear && node ./gulpfile/gulp.src/vinyl-fs.src.js",
+    "gulp:src": "npm run clear && node ./gulpfile/gulp.src/gulp.src.js",
+    "gulp": "npm run clear && node gulp.default.js"
   },
   "author": "goddancer",
   "license": "ISC",
